@@ -15,9 +15,9 @@ public class Caja {
         this.alto = alto;
         this.profundo = profundo;
     }
-    /* Metodo Calcular Volumen */
+    /* Método Calcular Volumen */
     public int calculaVolumen(){
-        return ancho * alto * profundo;
+        return this.ancho * this.alto * this.profundo;
     }
 
 
